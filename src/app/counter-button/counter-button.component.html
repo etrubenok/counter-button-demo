@@ -1,0 +1,8 @@
+<button class="btn btn-primary" (click)="onClickMe()">Click me!</button>
+<div id="counter">{{counter}}</div>
+
+<p *ngIf="showAlert">
+  <ngb-alert type="info" (close)="onCloseAlert()">
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+  </ngb-alert>
+</p>
